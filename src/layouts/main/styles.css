@@ -1,0 +1,14 @@
+.comercio-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.comercio-children {
+  flex: 1 1 auto;
+  margin-bottom: 30px;
+  margin-top: 0 !important;
+}
+.search-siclik {
+  border-radius: 0px !important;
+}

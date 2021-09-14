@@ -1,0 +1,419 @@
+/*!
+ * # Fomantic-UI - Site
+ * http://github.com/fomantic/Fomantic-UI/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=News Gothic MT:400,700,400italic,700italic&subset=latin&display=swap');
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'News Gothic MT', sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: #777679;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Exo', sans-serif;
+  line-height: 1.28571429em;
+  margin: calc(2rem - 0.1428571428571429em) 0 1rem;
+  font-weight: bold;
+  padding: 0;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.28571429rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0 0 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #009B3A;
+  text-decoration: none;
+}
+a:hover {
+  color: #008431;
+  text-decoration: none;
+}
+
+
+/*******************************
+         Scrollbars
+*******************************/
+
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: #777679;
+}
+::selection {
+  background-color: #CCE2FF;
+  color: #777679;
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #777679;
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #777679;
+}
+
+/* Force Simple Scrollbars */
+body ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+body ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.15);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 135, 139, 0.8);
+}
+
+/* Inverted UI */
+body .ui.inverted:not(.dimmer)::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+}
+body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.15);
+}
+body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+/*--- fullBlack ---*/
+
+.fullBlackText {
+  color: #56565A !important;
+}
+.fullBlackText:hover {
+  color: #626267 !important;
+}
+.fullBlackBackground {
+  background: #56565A !important;
+}
+
+/*--- black ---*/
+
+.blackText {
+  color: #646569 !important;
+}
+.blackText:hover {
+  color: #707276 !important;
+}
+.blackBackground {
+  background: #646569 !important;
+}
+
+/*--- lightBlack ---*/
+
+.lightBlackText {
+  color: #777679 !important;
+}
+.lightBlackText:hover {
+  color: #3d3d40 !important;
+}
+.lightBlackBackground {
+  background: #777679 !important;
+}
+
+/*--- grey ---*/
+
+.greyText {
+  color: #89898C !important;
+}
+.greyText:hover {
+  color: #969699 !important;
+}
+.greyBackground {
+  background: #89898C !important;
+}
+
+/*--- lightGrey ---*/
+
+.lightGreyText {
+  color: #989798 !important;
+}
+.lightGreyText:hover {
+  color: #7f7d7f !important;
+}
+.lightGreyBackground {
+  background: #989798 !important;
+}
+
+/*--- midWhite ---*/
+
+.midWhiteText {
+  color: #C8C7C6 !important;
+}
+.midWhiteText:hover {
+  color: #bbbab9 !important;
+}
+.midWhiteBackground {
+  background: #C8C7C6 !important;
+}
+
+/*--- white ---*/
+
+.whiteText {
+  color: #FFFFFF !important;
+}
+.whiteText:hover {
+  color: #f2f2f2 !important;
+}
+.whiteBackground {
+  background: #FFFFFF !important;
+}
+
+/*--- red ---*/
+
+.redText {
+  color: #E00034 !important;
+}
+.redText:hover {
+  color: #c7002e !important;
+}
+.redBackground {
+  background: #E00034 !important;
+}
+
+/*--- orange ---*/
+
+.orangeText {
+  color: #F2711C !important;
+}
+.orangeText:hover {
+  color: #f26202 !important;
+}
+.orangeBackground {
+  background: #F2711C !important;
+}
+
+/*--- yellow ---*/
+
+.yellowText {
+  color: #FFA100 !important;
+}
+.yellowText:hover {
+  color: #e69100 !important;
+}
+.yellowBackground {
+  background: #FFA100 !important;
+}
+
+/*--- green ---*/
+
+.greenText {
+  color: #009B3A !important;
+}
+.greenText:hover {
+  color: #008230 !important;
+}
+.greenBackground {
+  background: #009B3A !important;
+}
+
+/*--- teal ---*/
+
+.tealText {
+  color: #00B5AD !important;
+}
+.tealText:hover {
+  color: #009c95 !important;
+}
+.tealBackground {
+  background: #00B5AD !important;
+}
+
+/*--- blue ---*/
+
+.blueText {
+  color: #00549F !important;
+}
+.blueText:hover {
+  color: #004786 !important;
+}
+.blueBackground {
+  background: #00549F !important;
+}
+
+/*--- violet ---*/
+
+.violetText {
+  color: #6435C9 !important;
+}
+.violetText:hover {
+  color: #5829bb !important;
+}
+.violetBackground {
+  background: #6435C9 !important;
+}
+
+/*--- purple ---*/
+
+.purpleText {
+  color: #A333C8 !important;
+}
+.purpleText:hover {
+  color: #9627ba !important;
+}
+.purpleBackground {
+  background: #A333C8 !important;
+}
+
+/*--- pink ---*/
+
+.pinkText {
+  color: #E03997 !important;
+}
+.pinkText:hover {
+  color: #e61a8d !important;
+}
+.pinkBackground {
+  background: #E03997 !important;
+}
+
+/*--- brown ---*/
+
+.brownText {
+  color: #A5673F !important;
+}
+.brownText:hover {
+  color: #975b33 !important;
+}
+.brownBackground {
+  background: #A5673F !important;
+}
+.menu-bar-commerce {
+  background: #316767;
+  
+/* Old browsers */
+  
+/* FF3.6-15 */
+  
+/* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #168f00 0%, #25d700 100%, #4cdc35 100%, #4cdc35 100%);
+  
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00468b', endColorstr='#7db9e8', GradientType=1);
+  
+/* IE6-9 */
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
