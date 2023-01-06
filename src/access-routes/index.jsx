@@ -4,6 +4,7 @@ import { Route, Redirect } from "react-router-dom";
 export const PublicRoute = (props) => {
   const { component, renderLayout, ...rest } = props;
   const [userSession, setUserSession] = useState(false);
+  dd;
 
   //   async function validateUserSession() {
   //     const { refreshToken, isAuthenticated } = session.get();
