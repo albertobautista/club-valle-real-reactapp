@@ -16,11 +16,13 @@ export const WebLayout: FC<IWebLayoutProps> = ({
         <meta name="description" content={pageDescription} />
         <meta name="og:title" content={title} />
         <meta name="og:description" content={pageDescription} />
+        <link rel="shortcut icon" href="/logos/icono_cvr_verde.png" />
+        <meta name="og:image" content="/logos/icono_cvr_verde.png" />
       </Head>
       <nav>
         <Navbar />
       </nav>
-      <main className="px-8 ">{children}</main>
+      <main className="px-8">{children}</main>
       <footer>
         <Footer />
       </footer>
