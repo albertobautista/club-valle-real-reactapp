@@ -1,15 +1,15 @@
 import { WebLayout } from '@components/layouts';
 import type { NextPage } from 'next';
 
-const Home: NextPage = () => {
+const EventsPage: NextPage = () => {
   return (
     <WebLayout
-      title="Club Valle Real de Guadalajara"
+      title="Eventos - Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <h1 className="text-6xl underline uppercase text-principal">Inicio</h1>
+      <h1 className="text-6xl underline uppercase text-principal">Eventos</h1>
     </WebLayout>
   );
 };
 
-export default Home;
+export default EventsPage;
