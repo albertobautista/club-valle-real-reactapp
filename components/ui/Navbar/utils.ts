@@ -2,6 +2,7 @@ import { IMenuOptions, ISocialNetworkOptions } from './interfaces';
 
 const instagram = '/logos/social/instagram.svg';
 const youtube = '/logos/social/youtube.svg';
+const facebook = '/logos/social/facebook.svg';
 
 export const MENU_OPTIONS: IMenuOptions[] = [
   {
@@ -34,16 +35,16 @@ export const SOCIAL_NETWORKS: ISocialNetworkOptions[] = [
   {
     name: 'Instagram',
     icon: instagram,
-    href: 'https://www.instagram.com/kingsleague',
+    href: 'https://www.instagram.com/clubvallerealgdl/',
+  },
+  {
+    name: 'Facebook',
+    icon: facebook,
+    href: 'https://www.facebook.com/clubvallerealgdl',
   },
   {
     name: 'Youtube',
     icon: youtube,
-    href: 'https://www.youtube.com/@KingsLeagueOfficial',
-  },
-  {
-    name: 'Youtube',
-    icon: youtube,
-    href: 'https://www.youtube.com/@KingsLeagueOfficial',
+    href: 'https://www.youtube.com/@clubvallerealdeguadalajara3567',
   },
 ];

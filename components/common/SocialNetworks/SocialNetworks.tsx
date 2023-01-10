@@ -19,7 +19,7 @@ export const SocialNetworks: FC<ISocialNetworksProps> = ({
           href={href}
           target="_blank"
           rel="noopener norefferer noreferrer"
-          className={`w-11 h-11 flex items-center justify-center rounded-full transition-all duration-500 ${
+          className={`w-9 h-9 flex items-center justify-center rounded-full transition-all duration-500 ${
             theme === 'dark' ? 'bg-white' : 'bg-transparent hover:bg-white'
           } [&>img]:hover:scale-125 [&>img]:hover:invert-0 [&>img]:hover:brightness-100`}
         >
