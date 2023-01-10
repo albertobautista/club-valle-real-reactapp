@@ -1,3 +1,4 @@
+import { Footer } from '@components/common/Footer';
 import { Navbar } from '@components/ui/Navbar';
 import Head from 'next/head';
 import { FC } from 'react';
@@ -19,7 +20,10 @@ export const WebLayout: FC<IWebLayoutProps> = ({
       <nav>
         <Navbar />
       </nav>
-      <main className="px-8">{children}</main>
+      <main className="px-8 ">{children}</main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

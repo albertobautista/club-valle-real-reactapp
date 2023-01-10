@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'cvr-green': '#316767',
         'cvr-gold': '#AD8B38',
+        'cvr-blue': '#253245',
       },
     },
   },
