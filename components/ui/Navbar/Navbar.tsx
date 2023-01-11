@@ -1,24 +1,55 @@
-import { MainMenu } from '@components/common/MainMenu';
+import { FC, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FC } from 'react';
+import { MainMenu } from '@components/common/MainMenu';
 
 import profilePic from '/public/logos/logocvr.svg';
+import { MobileNav } from './components/MobileNav';
 
 export const Navbar: FC = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <header className="flex items-center w-full gap-2 p-8 lg:gap-x-28">
-      <Link href="/" passHref>
-        <Image
-          src={profilePic}
-          alt="Logo Club Valle Real de Guadalajara"
-          width={350}
-          height={200}
-        />
-      </Link>
-      <nav>
-        <MainMenu mobileHidden />
-      </nav>
-    </header>
+    <nav className="flex items-center p-5 mb-8 bg-white filter drop-shadow-lg">
+      <MobileNav open={open} setOpen={setOpen} />
+      <div className="flex items-center w-5/12">
+        <Link href="/" passHref>
+          <Image
+            src={profilePic}
+            alt="Logo Club Valle Real de Guadalajara"
+            width={350}
+            height={200}
+          />
+        </Link>
+      </div>
+      <div className="flex items-center justify-end w-7/12 bg-white">
+        <div
+          className="relative z-50 flex flex-col items-center justify-between w-8 h-8 md:hidden"
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          {/* hamburger button */}
+          <span
+            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+              open ? 'rotate-45 translate-y-3.5' : ''
+            }`}
+          />
+          <span
+            className={`h-1 w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${
+              open ? 'w-0' : 'w-full'
+            }`}
+          />
+          <span
+            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+              open ? '-rotate-45 -translate-y-3.5' : ''
+            }`}
+          />
+        </div>
+
+        <div className="hidden md:flex">
+          <MainMenu mobileHidden />
+        </div>
+      </div>
+    </nav>
   );
 };

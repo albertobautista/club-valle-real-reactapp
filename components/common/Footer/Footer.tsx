@@ -19,8 +19,8 @@ export const Footer = () => {
           />
         </div>
         <div className="grid grid-cols-2 gap-2 sm:gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {NAV_ENTRIES.map((entry) => (
-            <div>
+          {NAV_ENTRIES.map((entry, index) => (
+            <div key={index}>
               <h2 className="mb-4 text-sm font-semibold text-gray-200 uppercase dark:text-white">
                 {entry.label}
               </h2>

@@ -18,12 +18,8 @@ export const MENU_OPTIONS: IMenuOptions[] = [
     href: '/eventos',
   },
   {
-    name: 'Deportes',
-    href: '/desportes',
-  },
-  {
-    name: 'Culturales',
-    href: '/culturales',
+    name: 'Actividades',
+    href: '/actividades',
   },
   {
     name: 'Contacto',
