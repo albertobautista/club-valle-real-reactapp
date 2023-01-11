@@ -1,3 +1,4 @@
+import { ImageHeader } from '@components/common/ImageHeader';
 import { WebLayout } from '@components/layouts';
 import type { NextPage } from 'next';
 
@@ -7,7 +8,7 @@ const Home: NextPage = () => {
       title="Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <h1 className="text-6xl underline uppercase text-principal">Inicio</h1>
+      <ImageHeader />
     </WebLayout>
   );
 };
