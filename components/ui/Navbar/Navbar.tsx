@@ -10,8 +10,8 @@ export const Navbar: FC = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="flex items-center p-5 mb-8 bg-white filter drop-shadow-lg">
-      <MobileNav open={open} setOpen={setOpen} />
-      <div className="flex items-center w-5/12">
+      <MobileNav open={open} />
+      <div className="flex items-center w-4/12">
         <Link href="/" passHref>
           <Image
             src={profilePic}
@@ -21,9 +21,9 @@ export const Navbar: FC = () => {
           />
         </Link>
       </div>
-      <div className="flex items-center justify-end w-7/12 bg-white">
+      <div className="flex items-center justify-end w-8/12">
         <div
-          className="relative z-50 flex flex-col items-center justify-between w-6 h-6 md:hidden"
+          className="relative z-50 flex flex-col items-center justify-between w-6 h-6 lg:hidden"
           onClick={() => {
             setOpen(!open);
           }}
@@ -46,7 +46,7 @@ export const Navbar: FC = () => {
           />
         </div>
 
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <MainMenu mobileHidden />
         </div>
       </div>

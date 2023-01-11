@@ -8,10 +8,15 @@ export const MainMenu: FC<IMainMenuProps> = ({ mobileHidden }) => {
     <ul
       className={`${
         mobileHidden ? 'hidden md:flex' : 'flex'
-      } flex-wrap items-center justify-center rounded-xl gap-x-12 [&>li>a:hover]:scale-150 w-full`}
+      } flex-col flex-wrap gap-7 rounded-xl [&>li>a:hover]:scale-150 w-full lg:flex-row`}
     >
       {MENU_OPTIONS.map((option) => (
-        <LinkTitle key={option.name} href={option.href} title={option.name} />
+        <li
+          key={option.name}
+          className="border-b-2 border-b-cvr-gold/20 lg:border-b-0"
+        >
+          <LinkTitle href={option.href} title={option.name} />
+        </li>
       ))}
     </ul>
   );
