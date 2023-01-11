@@ -22,6 +22,7 @@ export const MobileNav: FC<IMobileNavProps> = ({ open }) => {
               alt="Logo Club Valle Real de Guadalajara"
               width={350}
               height={200}
+              priority
             />
           </Link>
         </div>
