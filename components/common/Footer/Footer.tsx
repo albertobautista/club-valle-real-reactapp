@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { SocialNetworks } from '../SocialNetworks/SocialNetworks';
 import { NAV_ENTRIES } from './utils';
-import profilePic from '/public/logos/logocvrblanco.png';
+import profilePic from '/public/logos/logocvrblanco.webp';
 
 export const Footer = () => {
   return (
