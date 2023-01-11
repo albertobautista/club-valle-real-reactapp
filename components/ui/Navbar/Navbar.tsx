@@ -23,25 +23,25 @@ export const Navbar: FC = () => {
       </div>
       <div className="flex items-center justify-end w-7/12 bg-white">
         <div
-          className="relative z-50 flex flex-col items-center justify-between w-8 h-8 md:hidden"
+          className="relative z-50 flex flex-col items-center justify-between w-6 h-6 md:hidden"
           onClick={() => {
             setOpen(!open);
           }}
         >
           {/* hamburger button */}
           <span
-            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
-              open ? 'rotate-45 translate-y-3.5' : ''
+            className={`h-1 w-full bg-cvr-green rounded-lg transform transition duration-300 ease-in-out ${
+              open ? 'rotate-45 translate-y-2.5' : ''
             }`}
           />
           <span
-            className={`h-1 w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${
+            className={`h-1 w-full bg-cvr-gold rounded-lg transition-all duration-300 ease-in-out ${
               open ? 'w-0' : 'w-full'
             }`}
           />
           <span
-            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
-              open ? '-rotate-45 -translate-y-3.5' : ''
+            className={`h-1 w-full bg-cvr-green rounded-lg transform transition duration-300 ease-in-out ${
+              open ? '-rotate-45 -translate-y-2.5' : ''
             }`}
           />
         </div>
