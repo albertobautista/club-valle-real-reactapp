@@ -12,16 +12,18 @@ export const MobileNav: FC<IMobileNavProps> = ({ open, setOpen }) => {
         open ? '-translate-x-0' : '-translate-x-full'
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
-      <div className="flex items-center justify-center p-3 bg-white filter drop-shadow-lg">
+      <div className="flex items-center justify-center p-5 mb-8 bg-white filter drop-shadow-lg">
         {/*logo container*/}
-        <Link href="/" passHref>
-          <Image
-            src={profilePic}
-            alt="Logo Club Valle Real de Guadalajara"
-            width={350}
-            height={200}
-          />
-        </Link>
+        <div className="flex items-center justify-center w-5/12">
+          <Link href="/" passHref>
+            <Image
+              src={profilePic}
+              alt="Logo Club Valle Real de Guadalajara"
+              width={350}
+              height={200}
+            />
+          </Link>
+        </div>
       </div>
       <div className="flex flex-col ml-4">
         <a
