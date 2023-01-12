@@ -1,0 +1,54 @@
+import { WebLayout } from '@components/layouts';
+import { getActivityInfo } from '@utils/getActivityInfo';
+import { activities } from 'data/activities';
+import { IActivityPageProps } from 'interfaces';
+import type { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+
+const SportsActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
+  return (
+    <WebLayout
+      title="Eventos - Club Valle Real de Guadalajara"
+      pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
+    >
+      <h1 className="text-6xl underline uppercase text-principal">
+        {activity.slug}
+      </h1>
+    </WebLayout>
+  );
+};
+
+export const getStaticPaths: GetStaticPaths = async (ctx) => {
+  const data = activities;
+  const paths = data.map((activity) => ({
+    params: { slug: activity.slug },
+  }));
+
+  return {
+    paths,
+    //fallback: false, // false en caso de no existir muestra un 404
+    fallback: 'blocking',
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const { slug } = params as { slug: string };
+
+  const activity = await getActivityInfo(slug);
+
+  if (!activity) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    };
+  }
+  return {
+    props: {
+      activity,
+    },
+    // revalidate: 86400, //  es cada 24 hrs
+  };
+};
+
+export default SportsActivitiesPage;

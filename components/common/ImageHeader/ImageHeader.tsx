@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '/public/activities/sports/test.jpeg';
+// import profilePic from '/public/activities/sports/test.jpeg';
 
 export const ImageHeader = () => {
   return (
@@ -9,7 +9,7 @@ export const ImageHeader = () => {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundImage: `url(${profilePic.src})`,
+        // backgroundImage: `url(${profilePic.src})`,
       }}
     >
       <article className="pb-0 pr-0 ">
