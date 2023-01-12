@@ -5,7 +5,7 @@ export const NAV_ENTRIES = [
     options: [
       {
         name: 'Tenis',
-        href: '/tenis',
+        href: '/actividades/tenis',
       },
       {
         name: 'Gimnasio',

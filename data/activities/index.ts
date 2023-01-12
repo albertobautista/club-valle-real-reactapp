@@ -20,6 +20,30 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: futbol,
+    instructor: 'Alberto Chavez Bautista',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+      {
+        day: 'Miercoles',
+        hour: ['06:00', '07:00'],
+      },
+      {
+        day: 'Jueves',
+        hour: ['06:00', '07:00'],
+      },
+      {
+        day: 'Viernes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'natacion-infantil',
@@ -27,13 +51,38 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: natacion,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'tenis',
     label: 'Tenis',
-    description: 'sdfhsdfjdsklfjsdklfjkl',
+    description:
+      'El tenis es un deporte que se practica con raquetas y una pequeña pelota. Pueden jugarlo dos individuos (uno contra uno) o dos parejas (dos personas contra las otras dos). El objetivo es impactar la pelota para que pase por encima de la red que divide la cancha a la mitad, intentando que el rival no consiga devolverla.',
     type: 'sports',
     image: tenis,
+    location: 'Cancha de tenis',
+    instructor: 'Alberto',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'spinning',
@@ -41,6 +90,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: spinning,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'fitness-grupal',
@@ -48,6 +109,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: fitnessGrupal,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'atletismo',
@@ -55,6 +128,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: atletismo,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'box',
@@ -62,6 +147,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: box,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'crossfit',
@@ -69,6 +166,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: crossfit,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'natacion-adultos',
@@ -76,6 +185,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: natacionAdultos,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'yoga',
@@ -83,6 +204,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: yoga,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'taekwondo',
@@ -90,6 +223,18 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'sports',
     image: taekwondo,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
   {
     slug: 'jazz',
@@ -97,5 +242,17 @@ export const activities: IActivity[] = [
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'cultural',
     image: jazz,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    schedule: [
+      {
+        day: 'Lunes',
+        hour: ['06:00', '09:00'],
+      },
+      {
+        day: 'Martes',
+        hour: ['06:00', '07:00'],
+      },
+    ],
   },
 ];

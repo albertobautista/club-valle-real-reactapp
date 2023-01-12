@@ -4,6 +4,13 @@ export interface IActivity {
   description: string;
   type: TActivityType;
   image: string;
+  instructor: string;
+  location: string;
+  schedule: IEventSchedule[];
+}
+interface IEventSchedule {
+  day: string;
+  hour: string[];
 }
 
 type TActivityType = 'sports' | 'cultural';

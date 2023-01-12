@@ -1,4 +1,7 @@
+import ActivityDetail from '@components/common/ActivityDetail/ActivityDetail';
+import { ImageHeader } from '@components/common/ImageHeader';
 import { WebLayout } from '@components/layouts';
+import { Container } from '@components/ui/Container';
 import { getActivityInfo } from '@utils/getActivityInfo';
 import { activities } from 'data/activities';
 import { IActivityPageProps } from 'interfaces';
@@ -10,9 +13,10 @@ const SportsActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
       title="Eventos - Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <h1 className="text-6xl underline uppercase text-principal">
-        {activity.slug}
-      </h1>
+      <ImageHeader image={activity.image} title={activity.label} />
+      <Container>
+        <ActivityDetail activity={activity} />
+      </Container>
     </WebLayout>
   );
 };
