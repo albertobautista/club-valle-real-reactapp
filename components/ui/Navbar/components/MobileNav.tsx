@@ -13,9 +13,9 @@ export const MobileNav: FC<IMobileNavProps> = ({ open }) => {
         open ? '-translate-x-0 ' : '-translate-x-full'
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
-      <div className="flex items-center justify-center p-5 mb-8 bg-white filter drop-shadow-lg">
+      <div className="flex items-center p-5 mb-8 bg-white filter drop-shadow-lg">
         {/*logo container*/}
-        <div className="flex items-center justify-center w-5/12">
+        <div className="flex items-center justify-center w-10/12 lg:w-4/12">
           <Link href="/" passHref>
             <Image
               src={profilePic}
