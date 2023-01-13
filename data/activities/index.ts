@@ -12,6 +12,7 @@ const yoga = '/activities/yoga.png';
 const taekwondo = '/activities/taekwondo.png';
 
 const jazz = '/activities/jazz.png';
+const musica = '/activities/musica.png';
 
 export const activities: IActivity[] = [
   {
@@ -26,23 +27,11 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
-      },
-      {
-        day: 'Miercoles',
-        hour: ['06:00', '07:00'],
-      },
-      {
-        day: 'Jueves',
-        hour: ['06:00', '07:00'],
-      },
-      {
-        day: 'Viernes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -58,11 +47,11 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -80,11 +69,11 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -101,53 +90,65 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
   {
     slug: 'fitness-grupal',
     label: 'Fitness Grupal',
-    description: 'sdfhsdfjdsklfjsdklfjkl',
+    description:
+      'Las clases grupales de fitness son clases estructuradas en las que un instructor guía a un grupo de personas para que realicen un entrenamiento específico. Estas clases pueden ser específicamente para trabajar una parte del cuerpo, de entrenamiento funcional con accesorios o estructurada de coreografía. Hoy hablare sobre esta última, las de coreografía.',
     type: 'sports',
     image: fitnessGrupal,
-    instructor: 'Alberto',
-    location: 'Cancha de tenis',
+    instructor: 'Humberto y Lidia',
+    location: 'Salón arriba de vestidores',
     relatedImages: [futbol, jazz],
-
     schedule: [
       {
-        day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        day: '*****Lunes',
+        hours: ['08:30'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['08:30'],
+      },
+      {
+        day: 'Miércoles',
+        hours: ['08:30'],
+      },
+      {
+        day: 'Jueves',
+        hours: ['08:30'],
+      },
+      {
+        day: 'Viernes',
+        hours: ['08:30'],
       },
     ],
   },
   {
     slug: 'atletismo',
     label: 'Atletismo',
-    description: 'sdfhsdfjdsklfjsdklfjkl',
+    description:
+      'Es un deporte que contiene un conjunto de disciplinas agrupadas en carreras, Saltos, lanzamientos, pruebas combinadas y marcha. Es el arte de superar el rendimiento de los adversarios en velocidad o en resistencia, en distancia o en altura.',
     type: 'sports',
     image: atletismo,
-    instructor: 'Alberto',
-    location: 'Cancha de tenis',
+    instructor: 'Roumen Alexandrov',
+    location: 'Pista de atletismo',
     relatedImages: [futbol, jazz],
-
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -164,32 +165,33 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
   {
     slug: 'crossfit',
     label: 'Crossfit',
-    description: 'sdfhsdfjdsklfjsdklfjkl',
+    description:
+      'CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios funcionales constantemente variados realizados a una alta intensidad.',
     type: 'sports',
     image: crossfit,
-    instructor: 'Alberto',
-    location: 'Cancha de tenis',
+    instructor: 'Fabían Jahaziel',
+    location: 'Salón de crossfit',
     relatedImages: [futbol, jazz],
 
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -206,11 +208,11 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -227,11 +229,11 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
@@ -249,17 +251,17 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
       },
     ],
   },
   {
     slug: 'jazz',
-    label: 'Jazz',
+    label: 'Jazz niñas',
     description: 'sdfhsdfjdsklfjsdklfjkl',
     type: 'cultural',
     image: jazz,
@@ -270,11 +272,32 @@ export const activities: IActivity[] = [
     schedule: [
       {
         day: 'Lunes',
-        hour: ['06:00', '09:00'],
+        hours: ['06:00'],
       },
       {
         day: 'Martes',
-        hour: ['06:00', '07:00'],
+        hours: ['06:00', '07:00'],
+      },
+    ],
+  },
+  {
+    slug: 'musica',
+    label: 'Música',
+    description: 'sda',
+    type: 'cultural',
+    image: musica,
+    instructor: 'Alberto',
+    location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
+    schedule: [
+      {
+        day: 'Lunes',
+        hours: ['06:00'],
+      },
+      {
+        day: 'Martes',
+        hours: ['06:00', '07:00'],
       },
     ],
   },

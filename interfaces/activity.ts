@@ -11,10 +11,10 @@ export interface IActivity {
 }
 interface IEventSchedule {
   day: string;
-  hour: string[];
+  hours: string[];
 }
 
-type TActivityType = 'sports' | 'cultural';
+export type TActivityType = 'sports' | 'cultural';
 
 export interface IActivityPageProps {
   activity: IActivity;

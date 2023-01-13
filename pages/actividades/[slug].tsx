@@ -30,7 +30,7 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
   return {
     paths,
     //fallback: false, // false en caso de no existir muestra un 404
-    fallback: 'blocking',
+    fallback: false,
   };
 };
 
