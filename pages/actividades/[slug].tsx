@@ -13,7 +13,7 @@ const SportsActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
       title="Eventos - Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <ImageHeader image={activity.image} title={activity.label} />
+      <ImageHeader image={activity.image} title={activity.label} isHeader />
       <Container>
         <ActivityDetail activity={activity} />
       </Container>
