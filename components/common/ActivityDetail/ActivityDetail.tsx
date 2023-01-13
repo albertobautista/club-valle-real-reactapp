@@ -65,7 +65,7 @@ const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {
               </svg>
               <span className="font-light text-md">{schedule.day}</span>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
