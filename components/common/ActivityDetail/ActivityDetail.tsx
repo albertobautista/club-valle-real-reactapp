@@ -112,7 +112,7 @@ const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {
               width={900}
               height={100}
               alt={activity.label}
-              className="h-full "
+              // className="h-full "
             />
           ))}
         </div>
