@@ -14,7 +14,7 @@ const AboutPage: NextPage = () => {
       <Container>
         <main className="mt-8">
           <section className="flex flex-col gap-10">
-            <h2 className="text-3xl tracking-wider text-center text-cvr-green">
+            <h2 className="pb-2 text-3xl tracking-wider text-center border-b-2 text-cvr-green border-b-cvr-gold">
               Ubicación
             </h2>
             <div className="border-2">
@@ -35,10 +35,10 @@ const AboutPage: NextPage = () => {
               del Fraccionamiento Valle Real en la Zona Real de Zapopan,
               Jalisco, con domicilio en Av. Paseo San Arturo Norte #2000.
             </p>
-            <h2 className="text-3xl tracking-wider text-center text-cvr-green">
+            <h2 className="pb-2 text-3xl tracking-wider text-center border-b-2 text-cvr-green border-b-cvr-gold">
               Horarios
             </h2>
-            <div className="grid grid-cols-1 grid-rows-1 text-center gap-y-24 gap-x-40 md:grid-cols-2 md:grid-rows-2">
+            <div className="grid grid-cols-1 grid-rows-1 text-center gap-y-12 gap-x-40 md:grid-cols-2 md:grid-rows-2">
               <div className="flex flex-col ">
                 <h3 className="text-lg font-bold text-cvr-green">
                   Membresias y Atención al Usuario
