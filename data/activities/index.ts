@@ -22,6 +22,7 @@ export const activities: IActivity[] = [
     image: futbol,
     instructor: 'Alberto Chavez Bautista',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz, spinning, box],
     schedule: [
       {
         day: 'Lunes',
@@ -53,6 +54,7 @@ export const activities: IActivity[] = [
     image: natacion,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
     schedule: [
       {
         day: 'Lunes',
@@ -73,6 +75,8 @@ export const activities: IActivity[] = [
     image: tenis,
     location: 'Cancha de tenis',
     instructor: 'Alberto',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -92,6 +96,8 @@ export const activities: IActivity[] = [
     image: spinning,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -111,6 +117,8 @@ export const activities: IActivity[] = [
     image: fitnessGrupal,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -130,6 +138,8 @@ export const activities: IActivity[] = [
     image: atletismo,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -149,6 +159,8 @@ export const activities: IActivity[] = [
     image: box,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -168,6 +180,8 @@ export const activities: IActivity[] = [
     image: crossfit,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -187,6 +201,8 @@ export const activities: IActivity[] = [
     image: natacionAdultos,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -206,6 +222,8 @@ export const activities: IActivity[] = [
     image: yoga,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -225,6 +243,9 @@ export const activities: IActivity[] = [
     image: taekwondo,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',
@@ -244,6 +265,8 @@ export const activities: IActivity[] = [
     image: jazz,
     instructor: 'Alberto',
     location: 'Cancha de tenis',
+    relatedImages: [futbol, jazz],
+
     schedule: [
       {
         day: 'Lunes',

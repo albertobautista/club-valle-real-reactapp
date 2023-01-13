@@ -102,6 +102,18 @@ const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {
           </h3>
           <p className="text-justify text-md">{activity.description}</p>
         </div>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {activity.relatedImages.map((image, index) => (
+            <Image
+              key={index}
+              src={image}
+              width={900}
+              height={100}
+              alt={activity.label}
+              className="h-full "
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -7,6 +7,7 @@ export interface IActivity {
   instructor: string;
   location: string;
   schedule: IEventSchedule[];
+  relatedImages: string[];
 }
 interface IEventSchedule {
   day: string;
