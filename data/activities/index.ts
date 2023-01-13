@@ -1,7 +1,7 @@
 import { IActivity } from 'interfaces';
 const futbol = '/activities/futbol.jpg';
 const natacion = '/activities/natacion-infantil.png';
-const tenis = '/activities/tenis.jpg';
+export const tenis = '/activities/tenis.jpg';
 const spinning = '/activities/spinning.jpg';
 const fitnessGrupal = '/activities/fitness-grupal.png';
 const atletismo = '/activities/atletismo.png';
