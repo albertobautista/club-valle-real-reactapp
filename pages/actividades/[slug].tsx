@@ -7,7 +7,7 @@ import { activities } from 'data/activities';
 import { IActivityPageProps } from 'interfaces';
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 
-const SportsActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
+const ActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
   return (
     <WebLayout
       title="Eventos - Club Valle Real de Guadalajara"
@@ -55,4 +55,4 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   };
 };
 
-export default SportsActivitiesPage;
+export default ActivitiesPage;

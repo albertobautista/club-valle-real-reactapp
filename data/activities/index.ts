@@ -9,7 +9,7 @@ const box = '/activities/box.png';
 const crossfit = '/activities/crossfit.png';
 const natacionAdultos = '/activities/natacion-adultos.png';
 const yoga = '/activities/yoga.png';
-const taekwondo = '/activities/taekwondo.png';
+export const taekwondo = '/activities/taekwondo.png';
 
 const jazz = '/activities/jazz.png';
 const musica = '/activities/musica.png';
