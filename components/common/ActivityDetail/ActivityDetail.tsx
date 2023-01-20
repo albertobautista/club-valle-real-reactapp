@@ -96,6 +96,7 @@ const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {
             width={800}
             height={100}
             alt={activity.label}
+            priority
           />
         </div>
         <div className="flex flex-col gap-3">
@@ -112,6 +113,7 @@ const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {
               width={900}
               height={100}
               alt={activity.label}
+              priority
               // className="h-full "
             />
           ))}

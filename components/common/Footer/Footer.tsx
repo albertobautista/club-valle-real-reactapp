@@ -16,6 +16,7 @@ export const Footer = () => {
             alt="Logo Club Valle Real de Guadalajara"
             width={350}
             height={200}
+            priority
           />
         </div>
         <div className="grid grid-cols-2 gap-2 sm:gap-3 sm:grid-cols-2 lg:grid-cols-3">

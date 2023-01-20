@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React, { FC } from 'react';
 import { IImageHeaderProps } from './interfaces';
 export const ImageHeader: FC<IImageHeaderProps> = ({
