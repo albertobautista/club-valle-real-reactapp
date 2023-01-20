@@ -6,6 +6,7 @@ import { getActivityInfo } from '@utils/getActivityInfo';
 import { activities } from 'data/activities';
 import { IActivityPageProps } from 'interfaces';
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import Image from 'next/image';
 
 const ActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
   return (
@@ -13,7 +14,14 @@ const ActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
       title="Eventos - Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <ImageHeader image={activity.image} title={activity.label} isHeader />
+      {/* <ImageHeader image={activity.image} title={activity.label} isHeader /> */}
+      <Image
+        src={activity.image}
+        width={800}
+        height={100}
+        alt={activity.label}
+        priority
+      />
       <Container>
         <ActivityDetail activity={activity} />
       </Container>
