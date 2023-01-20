@@ -1,18 +1,18 @@
 import { IActivity } from 'interfaces';
-const futbol = '/activities/futbol.jpg';
-const natacion = '/activities/natacion-infantil.png';
-export const tenis = '/activities/tenis.jpg';
-const spinning = '/activities/spinning.jpg';
-const fitnessGrupal = '/activities/fitness-grupal.png';
-const atletismo = '/activities/atletismo.png';
-const box = '/activities/box.png';
-const crossfit = '/activities/crossfit.png';
-const natacionAdultos = '/activities/natacion-adultos.png';
-const yoga = '/activities/yoga.png';
-export const taekwondo = '/activities/taekwondo.png';
+const futbol = '/activities/futbol.webp';
+const natacion = '/activities/natacion-infantil.webp';
+export const tenis = '/activities/tenis.webp';
+const spinning = '/activities/spinning.webp';
+const fitnessGrupal = '/activities/fitness-grupal.webp';
+const atletismo = '/activities/atletismo.webp';
+const box = '/activities/box.webp';
+const crossfit = '/activities/crossfit.webp';
+const natacionAdultos = '/activities/natacion-adultos.webp';
+const yoga = '/activities/yoga.webp';
+export const taekwondo = '/activities/taekwondo.webp';
 
-const jazz = '/activities/jazz.png';
-const musica = '/activities/musica.png';
+const jazz = '/activities/jazz.webp';
+const musica = '/activities/musica.webp';
 
 export const activities: IActivity[] = [
   {
