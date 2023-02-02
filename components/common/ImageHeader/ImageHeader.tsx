@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { FC } from 'react';
 import { IImageHeaderProps } from './interfaces';
 export const ImageHeader: FC<IImageHeaderProps> = ({
@@ -6,18 +7,17 @@ export const ImageHeader: FC<IImageHeaderProps> = ({
   isHeader,
 }) => {
   return (
-    <section
-      className={`flex flex-col justify-center w-full  ${
-        isHeader ? 'h-96' : 'h-44 rounded'
-      } m-0`}
-      style={{
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundImage: `url(${image})`,
-      }}
-    >
-      <article className="pb-0 pr-0 ">
+    <section className={`relative  ${isHeader ? 'h-96' : 'h-44 rounded'} m-0`}>
+      <Image
+        src={image}
+        width={500}
+        height={100}
+        alt={title}
+        className={`object-cover w-full  ${
+          isHeader ? 'h-96' : 'h-44 rounded'
+        } `}
+      />
+      <article className="absolute w-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ">
         <div className="flex items-center">
           <div
             className={`flex justify-center w-full ${

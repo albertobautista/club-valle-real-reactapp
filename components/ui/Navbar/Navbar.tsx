@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MainMenu } from '@components/common/MainMenu';
 
-import profilePic from '/public/logos/logocvr.svg';
+import profilePic from '/public/logos/logocvr.webp';
 import { MobileNav } from './components/MobileNav';
 
 export const Navbar: FC = () => {
@@ -16,9 +16,8 @@ export const Navbar: FC = () => {
           <Image
             src={profilePic}
             alt="Logo Club Valle Real de Guadalajara"
-            width={350}
-            height={200}
             priority
+            placeholder="blur"
           />
         </Link>
       </div>
