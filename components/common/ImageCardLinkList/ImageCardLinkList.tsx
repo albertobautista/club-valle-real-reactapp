@@ -16,6 +16,7 @@ const ImageCardLinkList: FC<IImageCardLinkListProps> = ({
             key={slug}
             href={`/actividades/${slug}`}
             // rel={Astro.url.pathname !== `/team/${id}` && 'preload'}
+            className="transition duration-100 transform hover:scale-110"
           >
             <ImageHeader image={image} title={label} isHeader={false} />
           </Link>
