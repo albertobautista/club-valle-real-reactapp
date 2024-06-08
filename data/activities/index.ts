@@ -1,5 +1,5 @@
 import { IActivity } from 'interfaces';
-const futbol = '/activities/futbol.webp';
+export const futbol = '/activities/futbol.webp';
 const natacion = '/activities/natacion-infantil.webp';
 export const tenis = '/activities/tenis.webp';
 const spinning = '/activities/spinning.webp';

@@ -3,16 +3,16 @@ import DataWithHeader from '@components/common/DataWithHeader/DataWithHeader';
 import { ImageHeader } from '@components/common/ImageHeader';
 import { WebLayout } from '@components/layouts';
 import { Container } from '@components/ui/Container';
-import { taekwondo, tenis } from 'data/activities';
+import { futbol, tenis } from 'data/activities';
 import { NextPage } from 'next';
 
 const AboutPage: NextPage = () => {
   return (
     <WebLayout
-      title="Nosotros - Club Valle Real de Guadalajara"
+      title="Nuestro Club "
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      <ImageHeader image={taekwondo} title="Nosotros" isHeader />
+      <ImageHeader image={futbol} title="Nuestro Club" isHeader />
       <Container>
         <main className="mt-8">
           <section className="flex flex-col gap-10">

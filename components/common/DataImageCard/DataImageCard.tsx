@@ -12,7 +12,7 @@ const DataImageCard: FC<IDataImageCardProps> = ({ image }) => {
         backgroundImage: `url(${image})`,
       }}
     >
-      <article className="pb-0 pr-0 ">
+      <article className="pb-0 pr-0 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div className="flex flex-col">
           <div
             className={`flex gap-14 flex-wrap items-center justify-around w-full ${'p-3'}`}
@@ -55,18 +55,21 @@ const DataImageCard: FC<IDataImageCardProps> = ({ image }) => {
             </div>
             <div className="flex items-center gap-3">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
                 fill="currentColor"
                 className="w-10 h-10 text-white"
+                viewBox="0 0 48 48"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z"
-                  clipRule="evenodd"
-                />
+                <title>sports-tennis-solid</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="invisible_box" data-name="invisible box">
+                    <rect width="48" height="48" fill="none" />
+                  </g>
+                  <g id="Q3_icons" data-name="Q3 icons">
+                    <path d="M6,26H5.1A19,19,0,0,0,22,42.9V42A16,16,0,0,0,6,26Zm35.6-3.5H43A19,19,0,0,0,25.6,5a7.1,7.1,0,0,0-.1,1.4A16.1,16.1,0,0,0,41.6,22.5Zm0,3A19,19,0,0,1,22.5,6.4,7.1,7.1,0,0,1,22.6,5,19.1,19.1,0,0,0,5,23H6A19,19,0,0,1,25,42v1A19.1,19.1,0,0,0,43,25.4Z" />
+                  </g>
+                </g>
               </svg>
-
               <div className="flex-col">
                 <h2 className="text-5xl font-bold text-white">48</h2>
                 <h2 className="text-xl font-light text-white">Instructores</h2>
@@ -74,22 +77,38 @@ const DataImageCard: FC<IDataImageCardProps> = ({ image }) => {
             </div>
             <div className="flex items-center gap-3">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
                 fill="currentColor"
                 className="w-10 h-10 text-white"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 330 330"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z"
-                  clipRule="evenodd"
-                />
-                <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z" />
+                <g id="XMLID_530_">
+                  <g id="XMLID_531_">
+                    <path
+                      id="XMLID_532_"
+                      d="M115,147.75c20.389,0,38.531-9.78,50-24.889c11.469,15.109,29.611,24.889,50,24.889
+			c34.601,0,62.75-28.149,62.75-62.75S249.601,22.25,215,22.25c-20.389,0-38.531,9.78-50,24.889
+			C153.531,32.03,135.389,22.25,115,22.25c-34.601,0-62.75,28.149-62.75,62.75S80.399,147.75,115,147.75z M215,52.25
+			c18.059,0,32.75,14.691,32.75,32.75s-14.691,32.75-32.75,32.75S182.25,103.059,182.25,85S196.941,52.25,215,52.25z M115,52.25
+			c18.059,0,32.75,14.691,32.75,32.75s-14.691,32.75-32.75,32.75S82.25,103.059,82.25,85S96.941,52.25,115,52.25z"
+                    />
+                  </g>
+                  <g id="XMLID_536_">
+                    <path
+                      id="XMLID_782_"
+                      d="M215,177.75c-17.373,0-34.498,3.942-50.022,11.44c-15.122-7.327-32.078-11.44-49.978-11.44
+			c-63.411,0-115,51.589-115,115c0,8.284,6.716,15,15,15h200h100c8.284,0,15-6.716,15-15C330,229.339,278.411,177.75,215,177.75z
+			 M31.325,277.75c7.106-39.739,41.923-70,83.675-70s76.569,30.261,83.675,70H31.325z M229.021,277.75
+			c-3.45-26.373-15.873-49.96-34.092-67.597c6.539-1.583,13.277-2.403,20.07-2.403c41.751,0,76.569,30.261,83.675,70H229.021z"
+                    />
+                  </g>
+                </g>
               </svg>
-
               <div className="flex-col">
-                <h2 className="text-5xl font-bold text-white">600</h2>
-                <h2 className="text-xl font-light text-white">Usuarios</h2>
+                <h2 className="text-5xl font-bold text-white">100</h2>
+                <h2 className="text-xl font-light text-white">Empleados</h2>
               </div>
             </div>
           </div>

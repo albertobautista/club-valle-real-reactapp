@@ -10,8 +10,8 @@ const ActivitiesPage: NextPage<IActivitiesPageProps> = ({
 }) => {
   return (
     <WebLayout
-      title="Eventos - Club Valle Real de Guadalajara"
-      pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
+      title="Actividades deportivas y culturales"
+      pageDescription="Actividades deportivas y culturales en Club Valle Real de Guadalajara"
     >
       <Container>
         <div className="flex flex-col gap-10">
