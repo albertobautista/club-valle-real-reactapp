@@ -7,6 +7,8 @@ import { NAV_ENTRIES } from './utils';
 import profilePic from '/public/logos/logocvrblanco.webp';
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="p-8 mt-10 text-white page-footer bg-cvr-blue">
       <div className="gap-10 md:flex md:justify-between">
@@ -45,11 +47,11 @@ export const Footer = () => {
       <hr className="my-6 border-gray-400 sm:mx-auto lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-center text-gray-400">
-          © 2023{' '}
+          © {currentYear}{' '}
           <a href="https://flowbite.com/" className="hover:underline">
-            Club Valle Real de Guadalajara
+            Club Valle Real de Guadalajara A.C.
           </a>
-          . Todos los derechos reservados.
+          Todos los derechos reservados.
         </span>
         <div className="flex justify-center mt-4 space-x-6 sm:mt-0">
           <SocialNetworks mobileHidden={false} theme={'dark'} />
