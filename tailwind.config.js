@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      flex: {
+        full: '0 0 100%',
+      },
       colors: {
         'cvr-green': '#316767',
         'cvr-gold': '#AD8B38',

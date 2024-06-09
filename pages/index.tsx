@@ -1,5 +1,7 @@
 import { WebLayout } from '@components/layouts';
+import CarouselsBanner from '@components/ui/CarouselsBanner/CarouselsBanner';
 import type { NextPage } from 'next';
+import { activities } from 'data/activities';
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +9,9 @@ const Home: NextPage = () => {
       title="Club Valle Real de Guadalajara"
       pageDescription="Ven a conocer a Club Valle Real de Guadalajara"
     >
-      Home
+      <div className="">
+        <CarouselsBanner activities={activities} />
+      </div>
     </WebLayout>
   );
 };
