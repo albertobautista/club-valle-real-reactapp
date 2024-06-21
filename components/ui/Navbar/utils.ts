@@ -8,22 +8,32 @@ export const MENU_OPTIONS: IMenuOptions[] = [
   {
     name: 'Inicio',
     href: '/',
+    enabled: true,
   },
   {
     name: 'Nuestro club',
     href: '/nosotros',
+    enabled: true,
   },
   {
     name: 'Eventos',
     href: '/eventos',
+    enabled: false,
   },
   {
     name: 'Actividades',
     href: '/actividades',
+    enabled: true,
   },
   {
     name: 'Contacto',
     href: '/contacto',
+    enabled: false,
+  },
+  {
+    name: 'Bolsa de trabajo',
+    href: '/bolsa-de-trabajo',
+    enabled: true,
   },
 ];
 

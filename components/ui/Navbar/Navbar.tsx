@@ -43,20 +43,23 @@ export const Navbar: FC = () => {
                 id="navbar"
                 className="md:relative text-2xl flex flex-col md:flex-row bg-cvr-green md:bg-transparent md:from-transparent md:to-transparent min-h-screen md:min-h-min py-24 md:py-0 md:flex justify-center text-white gap-6 md:gap-x-20 font-semibold text-center text-md md:text-base md:justify-start [&>li>a]:opacity-80 [&>li>a:hover]:opacity-100"
               >
-                {MENU_OPTIONS.map((option) => (
-                  <li key={option.name} className="md:w-max">
-                    <a
-                      className={`font-semibold tracking-wider text-white uppercase duration-150 border-b-2 border-transparent md:text-cvr-green ${
-                        router.pathname === option.href
-                          ? 'border-cvr-gold'
-                          : 'hover:border-cvr-gold'
-                      } `}
-                      href={option.href}
-                    >
-                      {option.name}
-                    </a>
-                  </li>
-                ))}
+                {MENU_OPTIONS.map(
+                  (option) =>
+                    option.enabled && (
+                      <li key={option.name} className="md:w-max">
+                        <a
+                          className={`font-semibold tracking-wider text-white uppercase duration-150 border-b-2 border-transparent md:text-cvr-green ${
+                            router.pathname === option.href
+                              ? 'border-cvr-gold'
+                              : 'hover:border-cvr-gold'
+                          } `}
+                          href={option.href}
+                        >
+                          {option.name}
+                        </a>
+                      </li>
+                    )
+                )}
               </ul>
             </div>
             {/* <SocialNetworks theme="white" mobileHidden={true} /> */}
