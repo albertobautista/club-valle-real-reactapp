@@ -14,8 +14,7 @@ export const SimpleCard: FC<Job> = ({
   };
 
   return (
-    <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl md:w-[400px]">
-      {/* Etiqueta en dirección diagonal dentro de la tarjeta */}
+    <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl ">
       <div className="absolute px-2 py-1 text-xs font-bold text-white rounded bg-cvr-gold top-4 right-4">
         {category}
       </div>
