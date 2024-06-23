@@ -35,6 +35,16 @@ export const MENU_OPTIONS: IMenuOptions[] = [
     href: '/bolsa-de-trabajo',
     enabled: true,
   },
+  {
+    name: 'Cursos de verano',
+    href: '/cursos-de-verano',
+    enabled: true,
+  },
+  {
+    name: 'Tenis Camp',
+    href: '/tenis-camp',
+    enabled: true,
+  },
 ];
 
 export const SOCIAL_NETWORKS: ISocialNetworkOptions[] = [

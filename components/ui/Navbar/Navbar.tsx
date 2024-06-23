@@ -30,7 +30,7 @@ export const Navbar: FC = () => {
             </ul>
           </nav>
 
-          <nav className="flex gap-4 self-center items-center md:justify-between md:w-[724px] lg:w-full max-w-4xl">
+          <nav className="flex gap-4 self-center items-center md:justify-between md:w-[724px] lg:w-full max-w-6xl">
             <input type="checkbox" id="menu" hidden className="peer" />
             <label
               htmlFor="menu"
