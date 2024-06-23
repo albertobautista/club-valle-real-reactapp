@@ -31,11 +31,6 @@ export const MENU_OPTIONS: IMenuOptions[] = [
     enabled: false,
   },
   {
-    name: 'Bolsa de trabajo',
-    href: '/bolsa-de-trabajo',
-    enabled: true,
-  },
-  {
     name: 'Cursos de verano',
     href: '/cursos-de-verano',
     enabled: true,
@@ -43,6 +38,11 @@ export const MENU_OPTIONS: IMenuOptions[] = [
   {
     name: 'Tenis Camp',
     href: '/tenis-camp',
+    enabled: true,
+  },
+  {
+    name: 'Bolsa de trabajo',
+    href: '/bolsa-de-trabajo',
     enabled: true,
   },
 ];
