@@ -14,9 +14,7 @@ const DataImageCard: FC<IDataImageCardProps> = ({ image }) => {
     >
       <article className="pb-0 pr-0 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div className="flex flex-col">
-          <div
-            className={`flex gap-14 flex-wrap items-center justify-around w-full ${'p-3'}`}
-          >
+          <div className="grid items-center justify-center grid-cols-1 gap-3 p-3 place-items-center sm:grid-cols-2 md:grid-cols-4 md:gap-10 md:justify-around md:w-full">
             <div className="flex items-center gap-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
