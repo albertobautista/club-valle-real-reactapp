@@ -34,13 +34,13 @@ const ActivitiesPage: NextPage<IActivitiesPageProps> = ({
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const sportsActivities = activities.filter(
-    (activity) => activity.type === 'sports'
-  );
+  const sportsActivities = activities
+    .filter((activity) => activity.type === 'sports' && activity.active)
+    .sort((a, b) => a.label.localeCompare(b.label));
 
-  const culturalActivities = activities.filter(
-    (activity) => activity.type === 'cultural'
-  );
+  const culturalActivities = activities
+    .filter((activity) => activity.type === 'cultural' && activity.active)
+    .sort((a, b) => a.label.localeCompare(b.label));
 
   return {
     props: {

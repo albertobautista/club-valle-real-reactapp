@@ -8,6 +8,7 @@ export interface IActivity {
   location: string;
   schedule: IEventSchedule[];
   relatedImages: string[];
+  active: boolean;
 }
 interface IEventSchedule {
   day: string;

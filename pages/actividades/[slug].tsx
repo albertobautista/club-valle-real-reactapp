@@ -23,9 +23,11 @@ const ActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
 
 export const getStaticPaths: GetStaticPaths = async (ctx) => {
   const data = activities;
-  const paths = data.map((activity) => ({
-    params: { slug: activity.slug },
-  }));
+  const paths = data
+    .filter((activity) => activity.active === true)
+    .map((activity) => ({
+      params: { slug: activity.slug },
+    }));
 
   return {
     paths,
