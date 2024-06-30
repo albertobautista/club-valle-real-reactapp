@@ -50,7 +50,7 @@ export const Footer = () => {
           © {currentYear}{' '}
           <a href="https://flowbite.com/" className="hover:underline">
             Club Valle Real de Guadalajara A.C.
-          </a>
+          </a>{' '}
           Todos los derechos reservados.
         </span>
         <div className="flex justify-center mt-4 space-x-6 sm:mt-0">
