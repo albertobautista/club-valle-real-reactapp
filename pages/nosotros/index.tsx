@@ -44,22 +44,22 @@ const AboutPage: NextPage = () => {
               <DataWithHeader
                 title="Membresias y Atención al Usuario"
                 body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
-                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext. 101"
+                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
               />
               <DataWithHeader
-                title="Membresias y Atención al Usuario"
+                title="Horario Caja General"
                 body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
-                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext. 101"
+                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
               />
               <DataWithHeader
-                title="Membresias y Atención al Usuario"
+                title="Oficina de Deportes"
                 body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
-                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext. 101"
+                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
               />
               <DataWithHeader
-                title="Membresias y Atención al Usuario"
+                title="Información para eventos"
                 body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
-                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext. 101"
+                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
               />
             </div>
             <DataImageCard image={tenis} />
