@@ -13,7 +13,7 @@ export const events: IEvent[] = [
   },
   {
     active: true,
-    alt: 'Invitación a estudio',
+    alt: 'Estudio de sudoración e hidratación',
     src: '/events/invitacion-estudio.png',
   },
 ];
