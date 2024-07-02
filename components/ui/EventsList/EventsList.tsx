@@ -12,17 +12,17 @@ export const EventsList: FC<EventsListProps> = ({ events }) => {
       {events.map((event, index) => (
         <div
           key={index}
-          className="max-w-lg bg-white border border-gray-700 rounded-lg shadow "
+          className="max-w-2xl text-center bg-white border border-gray-700 rounded-lg shadow "
         >
           <Image
-            className="object-cover w-full rounded-t-lg max-h-64 "
+            className="object-fill w-full rounded-t-lg md:object-cover max-h-96"
             src={event.src}
             alt={event.alt}
             width={2000}
             height={800}
           />
-          <div className="p-5">
-            <h5 className="mb-2 text-xl font-bold tracking-tight text-center text-gray-900">
+          <div className="md:p-5">
+            <h5 className="hidden mb-2 text-xl font-bold tracking-tight text-center text-gray-900 md:inline">
               {event.alt}
             </h5>
           </div>
