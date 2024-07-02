@@ -1,3 +1,5 @@
+import { IEvent } from '@components/ui/EventsList/interfaces';
+
 export interface IPicture {
   src: string;
   alt: string;
@@ -6,4 +8,5 @@ export interface IPicture {
 
 export interface IHomePageProps {
   pictures: IPicture[];
+  events: IEvent[];
 }

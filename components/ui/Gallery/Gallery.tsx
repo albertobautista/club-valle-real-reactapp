@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export const Gallery: FC<IGalleryProps> = ({ gallery }) => {
   return (
-    <div className="grid grid-cols-2 gap-2 md:grid-cols-4">
+    <div className="grid grid-cols-2 gap-7 md:grid-cols-4">
       {gallery?.map((picture) => (
-        <div key={picture.alt}>
+        <div key={picture.alt} className="text-center">
           <Link
             href={picture.url}
             target="_blank"
@@ -20,6 +20,9 @@ export const Gallery: FC<IGalleryProps> = ({ gallery }) => {
               width={500}
               height={500}
             />
+            <span className="w-full text-sm tracking-widest md:text-md">
+              {picture.alt}
+            </span>
           </Link>
         </div>
       ))}

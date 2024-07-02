@@ -1,6 +1,7 @@
 import ImageCardLinkList from '@components/common/ImageCardLinkList/ImageCardLinkList';
 import { WebLayout } from '@components/layouts';
 import { Container } from '@components/ui/Container';
+import { SectionTitleContainer } from '@components/ui/SectionTitleContainer';
 import { activities } from 'data/activities';
 import { IActivitiesPageProps } from 'interfaces';
 import type { GetStaticProps, NextPage } from 'next';
@@ -15,18 +16,12 @@ const ActivitiesPage: NextPage<IActivitiesPageProps> = ({
     >
       <Container>
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col gap-5 divide-cvr-gold">
-            <h2 className="text-3xl tracking-wider text-cvr-green">Deportes</h2>
-            <hr />
+          <SectionTitleContainer title="Deportes">
             <ImageCardLinkList activities={sportsActivities} />
-          </div>
-          <div className="flex flex-col gap-5 divide-cvr-gold">
-            <h2 className="text-3xl tracking-wider text-cvr-green">
-              Culturales
-            </h2>
-            <hr />
+          </SectionTitleContainer>
+          <SectionTitleContainer title="Culturales">
             <ImageCardLinkList activities={culturalActivities} />
-          </div>
+          </SectionTitleContainer>
         </div>
       </Container>
     </WebLayout>
