@@ -2,9 +2,10 @@ import { MainMenu } from '@components/common/MainMenu';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { FC } from 'react';
-import { IMobileNavProps } from './interfaces';
 
 import profilePic from '/public/logos/logocvr.svg';
+
+import { IMobileNavProps } from './interfaces';
 
 export const MobileNav: FC<IMobileNavProps> = ({ open }) => {
   return (

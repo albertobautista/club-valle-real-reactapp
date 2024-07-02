@@ -1,15 +1,15 @@
 import { WebLayout } from '@components/layouts';
 import CarouselsBanner from '@components/ui/CarouselsBanner/CarouselsBanner';
-import type { GetStaticProps, NextPage } from 'next';
-import { pictures as dataPictures } from 'data/pictures';
-import { IHomePageProps, IPicture } from 'interfaces/picture';
-import { shuffle } from '@utils/tools';
-import { Gallery } from '@components/ui/Gallery';
-import { gallery } from 'data/gallery';
-import { SectionTitleContainer } from '@components/ui/SectionTitleContainer';
 import { EventsList } from '@components/ui/EventsList';
 import { IEvent } from '@components/ui/EventsList/interfaces';
+import { Gallery } from '@components/ui/Gallery';
+import { SectionTitleContainer } from '@components/ui/SectionTitleContainer';
+import { shuffle } from '@utils/tools';
 import { events as dataEvents } from 'data/events';
+import { gallery } from 'data/gallery';
+import { pictures as dataPictures } from 'data/pictures';
+import { IHomePageProps, IPicture } from 'interfaces/picture';
+import type { GetStaticProps, NextPage } from 'next';
 
 const Home: NextPage<IHomePageProps> = ({ pictures, events }) => {
   return (

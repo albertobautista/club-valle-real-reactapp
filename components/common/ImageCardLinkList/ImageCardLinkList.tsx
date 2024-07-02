@@ -1,12 +1,10 @@
 import Link from 'next/link';
 import React, { FC } from 'react';
+
 import { ImageHeader } from '../ImageHeader';
 import { IImageCardLinkListProps } from './interfaces';
 
-const ImageCardLinkList: FC<IImageCardLinkListProps> = ({
-  activities,
-  small,
-}) => {
+const ImageCardLinkList: FC<IImageCardLinkListProps> = ({ activities }) => {
   return (
     <section className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
       {activities.map((activity) => {

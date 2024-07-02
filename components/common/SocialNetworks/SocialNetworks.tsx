@@ -1,6 +1,7 @@
 import { SOCIAL_NETWORKS } from '@components/ui/Navbar/utils';
 import Image from 'next/image';
 import { FC } from 'react';
+
 import { ISocialNetworksProps } from './interfaces';
 
 export const SocialNetworks: FC<ISocialNetworksProps> = ({

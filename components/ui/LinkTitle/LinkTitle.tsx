@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FC } from 'react';
+
 import { ILinkTitleProps } from './interfaces';
 
 export const LinkTitle: FC<ILinkTitleProps> = ({ href, title }) => {

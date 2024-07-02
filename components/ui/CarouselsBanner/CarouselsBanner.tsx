@@ -1,8 +1,7 @@
-import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
-import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
 import { IPicture } from 'interfaces/picture';
-import { useCallback } from 'react';
+import Image from 'next/image';
 
 type Props = {
   pictures: IPicture[];

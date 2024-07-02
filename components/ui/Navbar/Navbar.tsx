@@ -1,12 +1,13 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Script from 'next/script';
+import { FC } from 'react';
 
 import profilePic from '/public/logos/logocvr.webp';
-import Script from 'next/script';
-import { MENU_OPTIONS } from './utils';
+
 import { MenuIcon } from './components/MenuIcon';
-import { useRouter } from 'next/router';
+import { MENU_OPTIONS } from './utils';
 
 export const Navbar: FC = () => {
   const router = useRouter();

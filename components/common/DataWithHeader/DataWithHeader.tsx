@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+
 import { IDataWithHeader } from './interfaces';
 
 const DataWithHeader: FC<IDataWithHeader> = ({ title, body }) => {

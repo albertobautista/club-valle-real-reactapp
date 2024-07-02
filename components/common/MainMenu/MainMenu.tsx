@@ -1,6 +1,7 @@
 import { LinkTitle } from '@components/ui/LinkTitle';
 import { MENU_OPTIONS } from '@components/ui/Navbar/utils';
 import { FC } from 'react';
+
 import { IMainMenuProps } from './interfaces';
 
 export const MainMenu: FC<IMainMenuProps> = ({ mobileHidden }) => {

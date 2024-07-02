@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { FC } from 'react';
+
 import { IActivityDetailProps } from './interfaces';
 
 const ActivityDetail: FC<IActivityDetailProps> = ({ activity }) => {

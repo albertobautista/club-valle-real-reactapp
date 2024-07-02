@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+
 import { IContainerProps } from './interfaces';
 
 export const Container: FC<IContainerProps> = ({ children }) => {

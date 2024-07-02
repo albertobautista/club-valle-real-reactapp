@@ -2,9 +2,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+
+import profilePic from '/public/logos/logocvrblanco.webp';
+
 import { SocialNetworks } from '../SocialNetworks/SocialNetworks';
 import { NAV_ENTRIES } from './utils';
-import profilePic from '/public/logos/logocvrblanco.webp';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();

@@ -2,6 +2,7 @@ import { Footer } from '@components/common/Footer';
 import { Navbar } from '@components/ui/Navbar';
 import Head from 'next/head';
 import { FC } from 'react';
+
 import { IWebLayoutProps } from './interfaces';
 
 export const WebLayout: FC<IWebLayoutProps> = ({

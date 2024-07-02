@@ -21,7 +21,7 @@ const ActivitiesPage: NextPage<IActivityPageProps> = ({ activity }) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async (ctx) => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const data = activities;
   const paths = data
     .filter((activity) => activity.active === true)

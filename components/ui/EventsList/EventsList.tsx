@@ -1,6 +1,7 @@
-import React, { FC } from 'react';
-import { IEvent } from './interfaces';
 import Image from 'next/image';
+import React, { FC } from 'react';
+
+import { IEvent } from './interfaces';
 
 interface EventsListProps {
   events: IEvent[];

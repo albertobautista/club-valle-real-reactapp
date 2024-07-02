@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+
 import { IDataImageCardProps } from './interfaces';
 
 const DataImageCard: FC<IDataImageCardProps> = ({ image }) => {
