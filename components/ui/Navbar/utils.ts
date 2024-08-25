@@ -33,12 +33,12 @@ export const MENU_OPTIONS: IMenuOptions[] = [
   {
     name: 'Cursos de verano',
     href: '/cursos-de-verano',
-    enabled: true,
+    enabled: false,
   },
   {
     name: 'Tenis Camp',
     href: '/tenis-camp',
-    enabled: true,
+    enabled: false,
   },
   {
     name: 'Bolsa de trabajo',

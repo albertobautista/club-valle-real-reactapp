@@ -42,7 +42,7 @@ export const Navbar: FC = () => {
             <div className="absolute top-0 left-0 z-20 w-0 transition-all duration-300 ease-linear opacity-0 md:static md:opacity-100 md:w-full peer-checked:w-full peer-checked:opacity-100">
               <ul
                 id="navbar"
-                className="md:relative text-2xl flex flex-col md:flex-row bg-cvr-green md:bg-transparent md:from-transparent md:to-transparent min-h-screen md:min-h-min py-24 md:py-0 md:flex justify-center text-white gap-6 md:gap-x-20 font-semibold text-center text-md md:text-base md:justify-start [&>li>a]:opacity-80 [&>li>a:hover]:opacity-100"
+                className="md:relative text-2xl flex flex-col md:flex-row bg-cvr-green md:bg-transparent md:from-transparent md:to-transparent min-h-screen md:min-h-min py-24 md:py-0 md:flex justify-center text-white gap-6 md:gap-x-20 font-semibold text-center text-md md:text-base md:justify-center [&>li>a]:opacity-80 [&>li>a:hover]:opacity-100"
               >
                 {MENU_OPTIONS.map(
                   (option) =>
