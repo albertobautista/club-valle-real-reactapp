@@ -22,32 +22,32 @@ export const events: IEvent[] = [
     src: '/events/chiles-en-nogada.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Clase de Tae Kwon Do',
     src: '/events/tae-kwon-do-clase-prueba.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Clase de Jiu Jitsu',
     src: '/events/jiu-jitsu.webp',
   },
   {
-    active: true,
+    active: false,
     alt: '3er Etapa Padel',
     src: '/events/padel-3er-etapa.webp',
   },
   {
-    active: true,
+    active: false,
     alt: '3er Etapa Singles Varonil',
     src: '/events/singles-varonil-3er-etapa.webp',
   },
   {
-    active: true,
+    active: false,
     alt: '3er Etapa Mixto',
     src: '/events/mixto-3er-etapa.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Escuela de Tenis',
     src: '/events/escuela-tenis.webp',
   },
