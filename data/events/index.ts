@@ -51,4 +51,24 @@ export const events: IEvent[] = [
     alt: 'Escuela de Tenis',
     src: '/events/escuela-tenis.webp',
   },
+  {
+    active: true,
+    alt: 'Business Kids',
+    src: '/events/business-kids.webp',
+  },
+  {
+    active: true,
+    alt: 'Business Kids',
+    src: '/events/business-kids-2.webp',
+  },
+  {
+    active: true,
+    alt: 'Business Kids',
+    src: '/events/business-kids-3.webp',
+  },
+  {
+    active: true,
+    alt: 'Business Kids - Clase muestra',
+    src: '/events/business-kids-clase-muestra.webp',
+  },
 ];
