@@ -17,7 +17,7 @@ export const events: IEvent[] = [
     src: '/events/invitacion-estudio.png',
   },
   {
-    active: true,
+    active: false,
     alt: 'Chiles en Nogada 🇲🇽',
     src: '/events/chiles-en-nogada.webp',
   },
@@ -52,23 +52,33 @@ export const events: IEvent[] = [
     src: '/events/escuela-tenis.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Business Kids',
     src: '/events/business-kids.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Business Kids',
     src: '/events/business-kids-2.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Business Kids',
     src: '/events/business-kids-3.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Business Kids - Clase muestra',
     src: '/events/business-kids-clase-muestra.webp',
+  },
+  {
+    active: true,
+    alt: 'Clases de Flamenco 💃🏻',
+    src: '/events/clases-flamenco.webp',
+  },
+  {
+    active: true,
+    alt: 'Clases de Pilates',
+    src: '/events/clases-pilates.webp',
   },
 ];
