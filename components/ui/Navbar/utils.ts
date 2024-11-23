@@ -43,7 +43,7 @@ export const MENU_OPTIONS: IMenuOptions[] = [
   {
     name: 'Bolsa de trabajo',
     href: '/bolsa-de-trabajo',
-    enabled: true,
+    enabled: false,
   },
 ];
 
