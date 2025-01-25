@@ -72,13 +72,28 @@ export const events: IEvent[] = [
     src: '/events/business-kids-clase-muestra.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Clases de Flamenco 💃🏻',
     src: '/events/clases-flamenco.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Clases de Pilates',
     src: '/events/clases-pilates.webp',
+  },
+  {
+    active: true,
+    alt: 'Día del amor y la amistad',
+    src: '/events/14-febrero.webp',
+  },
+  {
+    active: true,
+    alt: 'Regreso de tradicional taquiza',
+    src: '/events/regreso-taquiza.webp',
+  },
+  {
+    active: true,
+    alt: 'Clases de Natación',
+    src: '/events/clases-natacion.webp',
   },
 ];
