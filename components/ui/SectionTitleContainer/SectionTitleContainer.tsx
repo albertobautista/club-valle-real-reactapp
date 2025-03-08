@@ -19,8 +19,7 @@ export const SectionTitleContainer: FC<SectionTitleContainerProps> = ({
         >
           {title}
         </h2>
-        <hr className="border border-cvr-gold" />
-        <hr />
+        <hr className="mb-5 border border-cvr-gold" />
         {children}
       </div>
     </div>
