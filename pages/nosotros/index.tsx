@@ -40,7 +40,7 @@ const AboutPage: NextPage = () => {
               <SectionTitleContainer title="Horarios" position="center">
                 <div className="grid grid-cols-1 grid-rows-1 text-center gap-y-12 gap-x-40 md:grid-cols-2 md:grid-rows-2">
                   <DataWithHeader
-                    title="Membresias y Atención al Usuario"
+                    title="Certificado de derecho de uso y Atención al Usuario"
                     body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
                   9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
                   />
