@@ -46,8 +46,8 @@ const AboutPage: NextPage = () => {
                   />
                   <DataWithHeader
                     title="Horario Caja General"
-                    body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
-                  9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
+                    body=" Lunes a Viernes 9:00 a 13:45 hrs. y 15:00 a 17:45 hrs. Sábados
+                  9:00 a 13:45 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
                   />
                   <DataWithHeader
                     title="Oficina de Deportes"
@@ -56,7 +56,7 @@ const AboutPage: NextPage = () => {
                   />
                   <DataWithHeader
                     title="Información para eventos"
-                    body=" Lunes a Viernes 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Sábados
+                    body=" Lunes a Jueves 9:00 a 14:00 hrs. y 15:00 a 18:00 hrs. Viernes 14:30 a 20:00 Sábados
                   9:00 a 14:00 hrs.  Tels. (33) 3832.0136, 3832.0257, 3832.0385, 3832.0513. Ext."
                   />
                 </div>
