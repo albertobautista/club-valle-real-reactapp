@@ -97,18 +97,23 @@ export const events: IEvent[] = [
     src: '/events/clases-natacion.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Escalafón Dobles 1ra Etapa',
     src: '/events/escalafon-dobles-1ra-etapa-2025.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Escalafón Dobles 1ra Etapa Mixto',
     src: '/events/escalafon-dobles-1ra-etapa-mixto-2025.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Escalafón Padel 2025',
     src: '/events/escalafon-padel-2025.webp',
+  },
+  {
+    active: true,
+    alt: 'Festejo del Día del Niño',
+    src: '/events/dia-del-nino.webp',
   },
 ];

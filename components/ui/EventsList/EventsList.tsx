@@ -16,7 +16,7 @@ export const EventsList: FC<EventsListProps> = ({ events }) => {
           className="w-full max-w-sm text-center bg-white border border-gray-700 rounded-lg shadow "
         >
           <Image
-            className="object-fill w-full rounded-lg md:rounded-b-none sm:h-96 "
+            className="object-cover w-full rounded-lg md:rounded-b-none sm:h-96 "
             src={event.src}
             alt={event.alt}
             width={2000}
