@@ -112,8 +112,13 @@ export const events: IEvent[] = [
     src: '/events/escalafon-padel-2025.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Festejo del Día del Niño',
     src: '/events/dia-del-nino.webp',
+  },
+  {
+    active: true,
+    alt: 'Vinyasa Flow',
+    src: '/events/vinyasa_flow.webp',
   },
 ];
