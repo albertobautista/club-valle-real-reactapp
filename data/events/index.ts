@@ -117,8 +117,18 @@ export const events: IEvent[] = [
     src: '/events/dia-del-nino.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Vinyasa Flow',
     src: '/events/vinyasa_flow.webp',
+  },
+  {
+    active: true,
+    alt: 'Noche Mexicana 2025 🇲🇽',
+    src: '/events/noche-mexicana-2025.png',
+  },
+  {
+    active: true,
+    alt: 'Chiles en Nogada 🇲🇽',
+    src: '/events/chiles-en-nogada-2025.png',
   },
 ];
