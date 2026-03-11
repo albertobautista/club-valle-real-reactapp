@@ -122,13 +122,18 @@ export const events: IEvent[] = [
     src: '/events/vinyasa_flow.webp',
   },
   {
-    active: true,
+    active: false,
     alt: 'Noche Mexicana 2025 🇲🇽',
     src: '/events/noche-mexicana-2025.png',
   },
   {
-    active: true,
+    active: false,
     alt: 'Chiles en Nogada 🇲🇽',
     src: '/events/chiles-en-nogada-2025.png',
+  },
+  {
+    active: true,
+    alt: 'Clases de Yoga',
+    src: '/events/yoga.webp',
   },
 ];

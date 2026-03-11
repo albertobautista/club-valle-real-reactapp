@@ -27,7 +27,7 @@ const Home: NextPage<IHomePageProps> = ({ pictures, events }) => {
         </SectionTitleContainer>
       </section>
       <section className="p-5 mt-5">
-        <SectionTitleContainer title="Eventos" position="center">
+        <SectionTitleContainer title="Eventos/Actividades" position="center">
           <EventsList events={events} />
         </SectionTitleContainer>
       </section>
